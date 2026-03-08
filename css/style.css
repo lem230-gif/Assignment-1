@@ -1,7 +1,5 @@
-/* Google Font: Space Grotesk — modern, clean, fits electronic/hyperpop aesthetic */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
 
-/* Universal box-sizing reset */
 * {
     box-sizing: border-box;
 }
@@ -13,14 +11,12 @@ body {
     color: #e0e0e0;
 }
 
-/* ── Header ─────────────────────────────────────────── */
 header {
     background-color: #111111;
     padding: 50px;
     border-bottom: 2px solid #2a2a2a;
 }
 
-/* ── Nav ─────────────────────────────────────────────── */
 nav ul {
     list-style: none;
     display: flex;
@@ -43,7 +39,6 @@ nav a:hover {
     color: #ff57b8;
 }
 
-/* ── General link color ──────────────────────────────── */
 a {
     color: #b8ff57;
 }
@@ -52,7 +47,6 @@ a:hover {
     color: #ff57b8;
 }
 
-/* ── Main content area ───────────────────────────────── */
 main {
     width: 70%;
     max-width: 1280px;
@@ -60,23 +54,17 @@ main {
     padding: 40px;
 }
 
-/* ── HTML Tag Selectors (Requirement: style 2 tag selectors) ─ */
-
-/* Tag Selector 1: h1 */
 h1 {
     color: #ffffff;
     font-size: 2.8rem;
-    /* NEW CSS PROPERTY: text-shadow — creates a soft neon glow effect */
     text-shadow: 0 0 14px rgba(184, 255, 87, 0.45), 0 0 30px rgba(184, 255, 87, 0.2);
 }
 
-/* Tag Selector 2: p */
 p {
     line-height: 1.8;
     color: #b0b0b0;
 }
 
-/* Additional tag styling */
 h2 {
     color: #b8ff57;
     border-bottom: 1px solid #2a2a2a;
@@ -109,16 +97,12 @@ ol, ul {
     line-height: 2.2;
 }
 
-/* ── Classes (Requirement: create and use 2 classes) ─── */
-
-/* Class 1: .wrapper — gradient background applied to the body */
 .wrapper {
     background: #0d0d0d;
     background: linear-gradient(160deg, #0d0d0d 0%, #0f1a08 50%, #0d0d0d 100%);
     min-height: 100vh;
 }
 
-/* Class 2: .photo-grid — CSS Grid image gallery */
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -138,7 +122,6 @@ ol, ul {
     filter: grayscale(0%);
 }
 
-/* ── Footer ──────────────────────────────────────────── */
 footer {
     background-color: #111111;
     color: #555555;
